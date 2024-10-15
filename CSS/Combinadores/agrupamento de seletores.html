@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+        h1, p, div{
+            color: red;
+            background-color: lightblue;
+        }
+
+        .texto, h1, #link-referencia{
+            color: rgba(8, 0, 255, 0.651);
+        }
+
+        h1, [id^="botao"]{
+            background-color: blueviolet;
+        }
+
+        p.texto{
+            color: rgb(255, 0, 200);
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupamento de Seletores</h1>
+    <p>Podemos aplicar as mesmas regras CSS para vários seletores diferentes. Para isso podemos separar os seletores utilizando (,).</p>
+    <div class="texto">Assim, não precisamos ficar copiando e colando os mesmos códigos para todos, nós podemos fazer um só bloco de CSS e reutilizar as mesmas regras!</div>
+
+    <br><br>
+
+    <a id="link-referencia" href="">Clique para ver a documentação</a>
+    <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eius obcaecati unde sint dolores quibusdam architecto animi quidem vitae, iusto dolorem voluptatum sapiente aut iste autem sunt perspiciatis numquam illum.</p>
+    <p class="teste">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error repudiandae harum sapiente quibusdam laudantium provident saepe tempora nobis labore eligendi, asperiores quasi perspiciatis in autem adipisci dolore maxime non corrupti.</p>
+    <br><br>
+    <a id="link-suporte" href="">Clique para entrar em contato</a>
+    <br><br>
+    <a id="botao-voltar" href="">Voltar</a>
+    <br><br>
+    <button id="botao-fechar">Fechar página</button>
+    <br><br><br><br><br><br><br><br>
+
+
+    
+
+</body>
+</html>

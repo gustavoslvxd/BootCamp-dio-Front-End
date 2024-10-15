@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores CSS</title>
+    <style>
+        
+        *{
+          
+            background-color: crimson;
+            font-weight: bolder;
+        }
+        
+        #tituloprincipal{
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .prgf{
+            text-align: justify;
+            color: aqua;
+            background-color: brown;
+        }
+
+        p{
+            background-color: blueviolet;
+        }
+
+        ul{
+            text-align: left;
+            text-decoration: none;
+        }
+
+        [tittle="Youtube"]{
+            color:rgb(255, 0, 0);
+
+        }
+
+        [tittle="Github"]{
+            color:rgb(0, 0, 0);
+
+        }
+
+        [tittle="Instagram"]{
+            color:rgb(251, 0, 255);
+
+        }
+
+        [tittle~="redesocial"]{
+            color:rgb(9, 255, 0);
+            background-color: blue;
+
+        }
+
+        [href^="https://"]{
+            text-align: center;
+            background-color: darkblue;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="tituloprincipal">Estudando sobre seletores CSS</h1>
+    <h2>Título 1</h2>
+    <p class="prgf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente autem repellat perspiciatis officiis expedita ducimus ut saepe iste, animi vero, sint laboriosam libero provident laudantium doloremque sequi architecto ipsam consequuntur.</P>
+    <h2>Título 2</h2>
+    <p class="prgf">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus amet eveniet ex. Veritatis eaque unde totam a labore! Reprehenderit ipsa, quisquam quasi sed totam odit quidem sit quos fugiat possimus?</p>
+    <h2>Título 3</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis possimus consequuntur laborum accusamus. Deserunt aliquam accusantium eaque iste rerum voluptatibus aliquid aut in, ex maxime. Exercitationem saepe iste odio nemo!</p>
+
+    <br>
+    <br>
+
+    <ul>
+        <li><a tittle="Youtube" href="youtube.com">Youtube</a></li>
+        <li><a tittle="Github" href="https://github.com/gustavoslvxd">GitHub</a></li>
+        <li><a tittle="Facebook" href="facebook.com">Facebook</a></li>
+        <li><a tittle="Instagram">Instagram</a></li>
+        <li><a tittle=" redesocial Orkut">Orkut</a></li>
+        <li><a tittle="redesocial msn">Msn</a></li>
+    </ul>
+
+</body>
+</html>
