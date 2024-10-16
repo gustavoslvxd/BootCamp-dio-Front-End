@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de Dimensionamento e Espaçamento</title>
+    <style>
+        
+        /*Propriedades básicas do CSS
+        max-width e min width
+        min-height e max height
+
+        ****************************
+
+        Margin: espaçamento por fora dos elementos
+        Um valor:Aplica nos 4 lados
+        Dois valores: Em cima e embaixo
+        Três valores: Em cima , lados e embaixo
+        Quatro valores: cima, direita, baixo e esquerda
+
+        margin-top
+        margin-botton
+        margin-left
+        margin-right  
+
+        o mesmo serve para o padding.
+        */
+        
+        div{
+            background-color: aquamarine;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        button{
+            background: pink;
+            max-width: 500px;
+            min-height: 300px;
+            max-height: 500px;
+            min-width: 300px;
+            margin: 20px;
+        }
+
+        #elemento-01{
+            background-color: orange;
+            margin-bottom: 50px;
+            color: white;
+            padding: 20px;
+            
+           
+          
+
+        }
+
+        #elemento-02{
+            background-color: purple;
+            margin-top: 20px;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+           
+
+        /*width = largura + borda + padding
+        200px + 20px + 20px = 240px */
+    </style>
+    </head>
+<body>
+    <div>Trilha de CSS</div>
+
+    <br><br><br>
+
+    <button>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error aliquid iusto itaque dolorem sed, repellat, minima pariatur dolorum, iure unde sit dolor provident numquam aspernatur. Animi mollitia ex laboriosam aperiam.
+    </button>
+
+    <div id="elemento-01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis atque sit, enim ratione ea nisi fugit corporis, harum sapiente illo tenetur id? Praesentium magni architecto laborum nam cum possimus?</div>
+    <div id="elemento-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda veritatis atque sit, enim ratione ea nisi fugit corporis, harum sapiente illo tenetur id? Praesentium magni architecto laborum nam cum possimus?</div>
+</body>
+</html>
