@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    font-family: "Oswald";
+    text-align: center;
+}
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-color: palevioletred;
+    background-image: url(picture/pexels-kevin-ku-92347-577585.jpg);
+    background-image: linear-gradient(to bottom,#BD72E8,#E87672);
+
+ 
+   
+}
+
+

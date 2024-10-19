@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+div{
+    margin-bottom: 30px;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url(picture/pexels-kevin-ku-92347-577585.jpg),url(picture/pexels-xexusdesigner-777001.jpg);
+}
+
+#cover{
+background-size: cover;
+}
+
+#contain{
+    background-size: contain;
+}
+
+#tamanho{
+    background-size: 50%;
+}
+
+#exemplo-x-y{
+    background-size: 200px 250px;
+}
+
+#exemplo-camadas{
+    background-size: contain, cover;
+}
+
+#repeat{
+    background-repeat: repeat;
+    background-size: 40%;
+    
+}
+
+#repeatx{
+    background-repeat: repeat-x;
+    background-size: 40%
+
+
+}
+
+#repeaty{
+    background-repeat: repeat-y;
+    background-size: 40%;
+}
+
+#space{
+    background-repeat: space;
+    background-size: 40%;
+}
+
+#round{
+    background-repeat: round;
+    background-size: 40%;
+}
+
+#norepeat{
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
