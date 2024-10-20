@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade Border Image Source</title>
+    <style>
+        .exemplo{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 30px, solid;
+            margin: auto;
+            
+        
+        }
+
+        /*#exemplo-resumido{
+            border-image: url() slice / 10px  / 1 repeat;
+        }
+            */
+
+        #exemplo-01{
+            border-image-source: url(png-clipart-spongebob-spongebob.png);
+            border-image-slice: 41;
+            border-image-repeat: round;
+            
+            border-image-width: 30px;
+            border-image-outset: 10px;
+        }
+
+        #exemplo-02{
+            border-image-source: linear-gradient(red, blue);
+            border-image-slice: 10;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com imagens</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+
+    <h2>Exemplos</h2>
+    <div id="exemplo-01" class="exemplo"></div>
+    <br>
+    <div id="exemplo-02" class="exemplo"></div>
+</body>
+</html>
